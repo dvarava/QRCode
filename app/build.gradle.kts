@@ -33,6 +33,7 @@ android {
 
 dependencies {
     implementation("com.journeyapps:zxing-android-embedded:4.1.0")
+    implementation("com.google.zxing:core:3.4.1")
     implementation(libs.appcompat)
     implementation(libs.material)
     implementation(libs.activity)
